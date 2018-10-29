@@ -1,1 +1,1 @@
-# C-project
+# C-exercises
