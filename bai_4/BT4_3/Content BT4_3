@@ -1,0 +1,4 @@
+Viết chương trình C tính số ngày trong tháng:
+- NHập vào tháng và năm;
+- Tính số ngày trong tháng và xuất kết quả như sau:
+"Thang <thang> nam <nam> co <ngay> ngay."
