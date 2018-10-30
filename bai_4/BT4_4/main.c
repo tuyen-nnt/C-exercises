@@ -31,6 +31,15 @@ double C(int n)
 }
 
 int D(int n)
+{   int a = 0;
+    int S = 0;
+    for (int i = 1; a <= n; i++ ) {
+        a = i * i;
+        S += a;
+    }
+    return S;
+}
+int E(int n)
 {
    bool check[n+1];
    int S = 0;
@@ -60,10 +69,10 @@ int main() {
     scanf("%s", num);
     n = strtol(num, NULL, 10);
 
-
-    printf("Cau a) S = %f\n", A(n));
-    printf("Cau b) S = %lf\n", B(n));
-    printf("Cau c) S = %lf\n", C(n));
+    printf("Cau a) S = %.2f\n", A(n));
+    printf("Cau b) S = %.1lf\n", B(n));
+    printf("Cau c) S = %.1lf\n", C(n));
     printf("Cau d) S = %d\n", D(n));
+    printf("Cau e) S = %d\n", E(n));
     return 0;
 }
