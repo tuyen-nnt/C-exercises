@@ -17,15 +17,15 @@ float A(int n)
 double B(int n)
 {
     double gt = 1.0;
-    for (int i = 1; i <= n; i++)
-        gt = gt*i;
+    for (; n > 0; n--)
+        gt = gt*n;
     return gt;
 }
 
 double C(int n)
 {
     float kqua = 0.0;
-    for (int i = 1; i <= n; i++)
+    for (int i = 0; i <= n; i++)
         kqua += B(i);
     return kqua;
 }
@@ -68,7 +68,7 @@ int main() {
     do {
     printf("Nhap vao so nguyen duong n : ");
     scanf("%s", num);
-    } while (strtol(num, NULL, 10) <= 0);
+    } while (strtol(num, NULL, 10) < 0);
 
     n = strtol(num, NULL, 10);
 
