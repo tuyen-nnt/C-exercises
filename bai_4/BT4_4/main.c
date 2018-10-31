@@ -65,8 +65,11 @@ int E(int n)
 int main() {
     char num[10] = {};
     int n = 0;
+    do {
     printf("Nhap vao so nguyen duong n : ");
     scanf("%s", num);
+    } while (n <= 0);
+
     n = strtol(num, NULL, 10);
 
     printf("Cau a) S = %.2f\n", A(n));
