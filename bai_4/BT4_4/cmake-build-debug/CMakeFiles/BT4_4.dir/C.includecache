@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/thanhtuyen/CLionProjects/BT4_4/main.c
+/home/thanhtuyen/C-exercises/bai_4/BT4_4/main.c
 stdio.h
 -
 stdbool.h

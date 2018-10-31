@@ -68,7 +68,7 @@ int main() {
     do {
     printf("Nhap vao so nguyen duong n : ");
     scanf("%s", num);
-    } while (n <= 0);
+    } while (strtol(num, NULL, 10) <= 0);
 
     n = strtol(num, NULL, 10);
 
