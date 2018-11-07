@@ -1,8 +1,5 @@
-//
-// Created by thanhtuyen on 07/11/2018.
-//
+int tinhDonGia(float n);
 
-#ifndef BT6_4_MYLIB_H
-#define BT6_4_MYLIB_H
+int tinhTienDien(int dgia, float k);
 
-#endif //BT6_4_MYLIB_H
+void xuatKQ(int S);

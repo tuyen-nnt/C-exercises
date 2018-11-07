@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/BT6_4.dir/main.c.o"
+  "CMakeFiles/BT6_4.dir/mylib.c.o"
   "BT6_4.pdb"
   "BT6_4"
 )

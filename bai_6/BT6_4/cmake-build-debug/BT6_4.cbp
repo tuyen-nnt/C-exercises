@@ -81,6 +81,12 @@
 		<Unit filename="/home/thanhtuyen/C-exercises/bai_6/BT6_4/main.c">
 			<Option target="BT6_4"/>
 		</Unit>
+		<Unit filename="/home/thanhtuyen/C-exercises/bai_6/BT6_4/mylib.c">
+			<Option target="BT6_4"/>
+		</Unit>
+		<Unit filename="/home/thanhtuyen/C-exercises/bai_6/BT6_4/mylib.h">
+			<Option target="BT6_4"/>
+		</Unit>
 		<Unit filename="/home/thanhtuyen/C-exercises/bai_6/BT6_4/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

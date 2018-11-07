@@ -150,6 +150,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/BT6_4.dir/build.make CMakeFiles/BT6_4.dir/main.c.s
 .PHONY : main.c.s
 
+mylib.o: mylib.c.o
+
+.PHONY : mylib.o
+
+# target to build an object file
+mylib.c.o:
+	$(MAKE) -f CMakeFiles/BT6_4.dir/build.make CMakeFiles/BT6_4.dir/mylib.c.o
+.PHONY : mylib.c.o
+
+mylib.i: mylib.c.i
+
+.PHONY : mylib.i
+
+# target to preprocess a source file
+mylib.c.i:
+	$(MAKE) -f CMakeFiles/BT6_4.dir/build.make CMakeFiles/BT6_4.dir/mylib.c.i
+.PHONY : mylib.c.i
+
+mylib.s: mylib.c.s
+
+.PHONY : mylib.s
+
+# target to generate assembly for a file
+mylib.c.s:
+	$(MAKE) -f CMakeFiles/BT6_4.dir/build.make CMakeFiles/BT6_4.dir/mylib.c.s
+.PHONY : mylib.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... mylib.o"
+	@echo "... mylib.i"
+	@echo "... mylib.s"
 .PHONY : help
 
 
