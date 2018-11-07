@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/thanhtuyen/C-exercises/bai_6/BT6_5/main2.c
+stdio.h
+-
+stdlib.h
+-
+memory.h
+-
+mylib2.h
+/home/thanhtuyen/C-exercises/bai_6/BT6_5/mylib2.h
+
+/home/thanhtuyen/C-exercises/bai_6/BT6_5/mylib2.h
+
+/home/thanhtuyen/C-exercises/bai_6/BT6_5/mylib3.c
+stdio.h
+-
+
+/home/thanhtuyen/C-exercises/bai_6/BT6_5/mylib4.c
+stdio.h
+-
+
