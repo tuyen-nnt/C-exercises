@@ -20,6 +20,16 @@ int main() {
 
     D = b*b - 4*a*c;
 
+    if(a == 0) {
+        printf("You must enter a > 0\n");
+        return 0; // finish 
+    }
+ 
+    if(delta == 0) {
+        float x = -b / (2 * a);
+        printf("x = %.2f\n", x);
+    }
+
     if (D < 0)
     {
         printf ("Phuong trinh vo nghiem.");
