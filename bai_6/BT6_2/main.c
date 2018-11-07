@@ -28,7 +28,6 @@ float tinhToan(char* toan,float a, float b)
 }
 
 
-
 int main() {
     char a[10] = {},b[10]= {},c[10] = {},d[10] = {};
     char *ptoan = (char*)malloc(10);

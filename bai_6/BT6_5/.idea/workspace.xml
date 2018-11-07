@@ -12,48 +12,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27d54de5-acbc-4dca-9aa9-185701342209" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../BT6_4/mylib.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BT6_4/mylib.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main2.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main2.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main3.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main3.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main4.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main4.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mylib.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mylib.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mylib2.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mylib2.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mylib3.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mylib3.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mylib4.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mylib4.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../bai_4/BT4_2/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai_4/BT4_2/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../bai_4/BT4_4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai_4/BT4_4/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../bai_4/BT4_5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai_4/BT4_5/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BT6_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BT6_2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BT6_2/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../BT6_2/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BT6_4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BT6_4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BT6_4/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../BT6_4/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BT6_4/cmake-build-debug/BT6_4" beforeDir="false" afterPath="$PROJECT_DIR$/../BT6_4/cmake-build-debug/BT6_4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BT6_4/cmake-build-debug/BT6_4.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../BT6_4/cmake-build-debug/BT6_4.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BT6_4/cmake-build-debug/CMakeFiles/BT6_4.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../BT6_4/cmake-build-debug/CMakeFiles/BT6_4.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BT6_4/cmake-build-debug/CMakeFiles/BT6_4.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../BT6_4/cmake-build-debug/CMakeFiles/BT6_4.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BT6_4/cmake-build-debug/CMakeFiles/BT6_4.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../BT6_4/cmake-build-debug/CMakeFiles/BT6_4.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BT6_4/cmake-build-debug/CMakeFiles/BT6_4.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../BT6_4/cmake-build-debug/CMakeFiles/BT6_4.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BT6_4/cmake-build-debug/CMakeFiles/BT6_4.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../BT6_4/cmake-build-debug/CMakeFiles/BT6_4.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BT6_4/cmake-build-debug/CMakeFiles/BT6_4.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../BT6_4/cmake-build-debug/CMakeFiles/BT6_4.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BT6_4/cmake-build-debug/CMakeFiles/BT6_4.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../BT6_4/cmake-build-debug/CMakeFiles/BT6_4.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BT6_4/cmake-build-debug/CMakeFiles/BT6_4.dir/main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/../BT6_4/cmake-build-debug/CMakeFiles/BT6_4.dir/main.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BT6_4/cmake-build-debug/CMakeFiles/BT6_4.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../BT6_4/cmake-build-debug/CMakeFiles/BT6_4.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BT6_4/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../BT6_4/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BT6_4/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../BT6_4/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BT6_4/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../BT6_4/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BT6_4/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../BT6_4/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BT6_4/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../BT6_4/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BT6_4/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../BT6_4/main.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -312,12 +275,12 @@
       <workItem from="1541561556000" duration="51000" />
       <workItem from="1541561617629" duration="2601000" />
       <workItem from="1541564222604" duration="2701000" />
-      <workItem from="1541572573935" duration="3474000" />
+      <workItem from="1541572573935" duration="3764000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9342000" />
+    <option name="totallyTimeSpent" value="9632000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
