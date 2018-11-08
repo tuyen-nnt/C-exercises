@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="BT7_1" targetName="BT7_1" />
+      <config projectName="ControStructGuide" targetName="ControStructGuide" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,15 +11,19 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8cd4636-9962-429f-943a-c3363d63b156" name="Default Changelist" comment="">
+    <list default="true" id="fa2b9c74-d60b-42b2-babf-39be7c5681e8" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../BgiangControStruct/CMakeLists.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../BgiangControStruct/main.c" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../BgiangControStruct/mylib.c" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../BgiangControStruct/mylib.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mylib.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mylib.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../bai_6/BT6_5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai_6/BT6_5/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BT7_1.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BT7_1.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BT7_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BT7_1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BT7_1/cmake-build-debug/CMakeFiles/BT7_1.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../BT7_1/cmake-build-debug/CMakeFiles/BT7_1.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BT7_1/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../BT7_1/main.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,41 +34,39 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FUSProjectUsageTrigger">
-    <session id="-873711097">
+    <session id="1063826227">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.0" value="3" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="c" value="3890" />
-          <entry key="m" value="11" />
+          <entry key="c" value="21" />
+          <entry key="h" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="3901" />
+          <entry key="ObjectiveC" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="BT7_1 (disassembly)" value="1" />
+          <entry key="c" value="1" />
+          <entry key="h" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Disassembly" value="1" />
+          <entry key="ObjectiveC" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor" />
@@ -73,11 +75,32 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="75" column="22" selection-end-line="247" selection-end-column="1" />
+            <state relative-caret-position="132">
+              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mylib.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="33">
+              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mylib.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="99">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -90,6 +113,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/mylib.h" />
+        <option value="$PROJECT_DIR$/mylib.c" />
         <option value="$PROJECT_DIR$/main.c" />
       </list>
     </option>
@@ -103,7 +128,7 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="347" />
     <option name="y" value="52" />
-    <option name="width" value="1380" />
+    <option name="width" value="1370" />
     <option name="height" value="1028" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -112,8 +137,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ControStructGuide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ControStructGuide" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -133,20 +168,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BT7_1">
-    <configuration name="BT7_1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BT7_1" TARGET_NAME="BT7_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="BT7_1" RUN_TARGET_NAME="BT7_1">
+  <component name="RunManager" selected="Application.ControStructGuide">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+    <configuration name="ControStructGuide" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ControStructGuide" TARGET_NAME="ControStructGuide" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ControStructGuide" RUN_TARGET_NAME="ControStructGuide">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Build All" />
-      <item itemvalue="Application.BT7_1" />
+      <item itemvalue="Application.ControStructGuide" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -154,47 +189,41 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e8cd4636-9962-429f-943a-c3363d63b156" name="Default Changelist" comment="" />
-      <created>1541571559347</created>
+      <changelist id="fa2b9c74-d60b-42b2-babf-39be7c5681e8" name="Default Changelist" comment="" />
+      <created>1541692090644</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1541571559347</updated>
-      <workItem from="1541571560779" duration="1008000" />
-      <workItem from="1541577403589" duration="2218000" />
-      <workItem from="1541590236552" duration="11419000" />
-      <workItem from="1541657734706" duration="3798000" />
-      <workItem from="1541689764969" duration="23000" />
-      <workItem from="1541691807041" duration="16000" />
+      <updated>1541692090644</updated>
+      <workItem from="1541692092060" duration="250000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18482000" />
+    <option name="totallyTimeSpent" value="250000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13890426" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24958494" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35783783" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.32972974" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="CMake" order="12" />
+      <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,43 +232,31 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <watches-manager>
-      <configuration name="CMakeRunConfiguration">
-        <watch expression="*a" language="ObjectiveC" />
-        <watch expression="a" language="ObjectiveC" />
-        <watch expression="*a" language="ObjectiveC" />
-        <watch expression="a[2]" language="ObjectiveC" />
-      </configuration>
-    </watches-manager>
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="watch">
-      <expression>
-        <expression-string>a[2]</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>*a</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>a</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/mylib.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mylib.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="75" column="22" selection-end-line="247" selection-end-column="1" />
+        <state relative-caret-position="132">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
