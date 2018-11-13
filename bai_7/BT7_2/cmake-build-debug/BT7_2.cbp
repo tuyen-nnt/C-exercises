@@ -39,7 +39,7 @@
 			</Target>
 			<Target title="BT7_2">
 				<Option output="/home/thanhtuyen/C-exercises/bai_7/BT7_2/cmake-build-debug/BT7_2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/thanhtuyen/C-exercises/bai_7/BT7_2/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -59,7 +59,7 @@
 			</Target>
 			<Target title="BT7_2/fast">
 				<Option output="/home/thanhtuyen/C-exercises/bai_7/BT7_2/cmake-build-debug/BT7_2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/thanhtuyen/C-exercises/bai_7/BT7_2/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
