@@ -15,7 +15,7 @@ void stringCopy(char* s1, char* s2, int n)
     // (là vị trí sẽ chèn s2 vào)
     int pNextChar = strlen(s1);     // s[pNextChar] = '\0'
 
-    // Copy s2 vào s1
+    // Copy s2 vào s1, phep ++ se +1 sau khi 1 vong lap ket thuc
     for (int i = 0; i < n; i++)
     {
         s1[pNextChar++] = s2[i];
