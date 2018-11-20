@@ -84,18 +84,15 @@ void vietHoa(char* s)
         s[0] = (char) k;
     }
     for (i = 1; i < n-1; i++) {
-        while (s[i] == ' ' && s[i + 1] != ' ')
+        while (s[i] == ' ' && s[i + 1] >= 'a' && s[i + 1] <= 'z')
+
         {
-            if (s[i + 1] >= 'a' && s[i + 1] <= 'z')
-            {
-                int k = (int) s[i + 1] - 32;
-                s[i + 1] = (char) k;
-            }
+            int k = (int) s[i + 1] - 32;
+            s[i + 1] = (char) k;
         }
+
     }
 }
-
-
 
 
 int main() {
