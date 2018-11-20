@@ -23,6 +23,26 @@ void nhapMang(int a[10][10], int* size)
         }
     }
 
+
+    //Dong co tong lon nhat:
+
+    int sMAX = 0;
+    int s = 0;
+    int remember = 0;
+
+    for (int i = 0; i < size; i++)
+    {
+        for (int j = 0; j < size; j++)
+        {
+            s += a[i][j];
+        }
+        if (s > sMAX)
+            sMAX = s;
+        remember = i; 
+    }
+
+    printf("Dong co tong lon nhat la dong thu %d.", remember + 1);
+
 }
 
 
@@ -40,6 +60,35 @@ int main() {
         }
         printf("\n");
     }
+
+    //Tinh tong duong cheo chinh:
+
+    int s1 = 0;
+
+    for (int i = 0; i < size; i++)
+    {
+        for (int j = 0; j < size; j++)
+        {
+            if (i == j)
+                s1 += a[i][i];
+        }
+    }
+    printf("Tong duong cheo chinh = %d", s1);
+
+    //Tinh tong duong cheo phu:
+
+    int s2 = 0;
+
+    for (int i = 0; i < size; i++)
+    {
+        for (int j = 0; j < size; j++)
+        {
+            if ((i + j) == (size - 1))
+                s2 += a[i][j];
+        }
+    }
+
+
 
     return 0;
 }
