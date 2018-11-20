@@ -1,15 +1,45 @@
 #include <stdio.h>
-void nhapMang(int* a, int n)
+#include <stdlib.h>
+
+void nhapMang(int a[10][10], int* size)
 {
-    printf("Nhap vao so hang va so cot : ");
-    scanf(
+    int i,j;
+    char buffer[10] = {};
+    *size = 0;
+    while (*size <= 0 )
+    {
+        printf("Nhap vao so hang va so cot N = ");
+        scanf("%s", buffer);
+        *size = (int) strtol(buffer, NULL, 10);
+    }
+
+    for (i = 0; i < *size; i++)
+    {
+        for (j = 0; j < *size; j++)
+        {
+            printf("Nhap vao a[%d][%d] = ", i, j);
+            scanf("%s", buffer);
+            a[i][j] = (int) strtol(buffer, NULL, 10);
+        }
+    }
 
 }
 
 
 int main() {
-    int* a[10][10];
 
+    int a[10][10] = {};
+    int size;
+    nhapMang(a, &size);
+
+    for (int i = 0; i <= size; i++)
+    {
+        for (int j = 0; j <= size; j++)
+        {
+            printf("%d\t", a[i][j]);
+        }
+        printf("\n");
+    }
 
     return 0;
 }
