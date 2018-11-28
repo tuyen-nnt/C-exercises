@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void nhapMang(int a[10][10], int* size)
+void nhapMang(int*** a, int* size)
 {
-    int i, j;
     char buffer[10] = {};
     *size = 0;
 
@@ -14,33 +13,40 @@ void nhapMang(int a[10][10], int* size)
         *size = (int) strtol(buffer, NULL, 10);
     }
 
-    for (i = 0; i < *size; i++)
+    *a = (int**)malloc(*size*sizeof(int**));
+    for (int i = 0; i < *size; i++)
     {
-        for (j = 0; j < *size; j++)
+        (*a)[i] = (int*)malloc(*size*sizeof(int*));
+    }
+
+    for (int i = 0; i < *size; i++)
+    {
+        for (int j = 0; j < *size; j++)
         {
             printf("Nhap vao a[%d][%d] = ", i, j);
             scanf("%s", buffer);
-            a[i][j] = (int) strtol(buffer, NULL, 10);
+            (*a)[i][j] = (int) strtol(buffer, NULL, 10);
         }
     }
 }
 
-int maPhuong(int array[10][10], int size)
+
+int maPhuong(int*** array, int** size)
 {
     int s = 0;
     int s1 = 0; //Khoi tao gia tri s dau de so sanh
 
     //Xet tong moi hang:
-    for (int j = 0; j < size; j++)
+    for (int j = 0; j < **size; j++)
     {
-        s1 += array[0][j];
+        s1 += *array[0][j];
     }
 
-    for (int i = 0; i < size; i++)
+    for (int i = 0; i < **size; i++)
     {
-        for (int j = 0; j < size; j++)
+        for (int j = 0; j < **size; j++)
         {
-            s += array[i][j];
+            s += *array[i][j];
         }
         if (s != s1)
         {
@@ -50,11 +56,11 @@ int maPhuong(int array[10][10], int size)
     }
 
     //Xet tong moi cot
-    for (int j = 0; j < size; j++)
+    for (int j = 0; j < **size; j++)
     {
-        for (int i = 0; i < size; i++)
+        for (int i = 0; i < **size; i++)
         {
-            s += array[i][j];
+            s += *array[i][j];
         }
 
         if (s != s1)
@@ -67,17 +73,17 @@ int maPhuong(int array[10][10], int size)
 }
 
 // Xuat ra dong co tong lon nhat:
-int lineMAX(int array[10][10], int size)
+int lineMAX(int*** array, int** size)
 {
     int sMAX = 0;
     int s = 0;
     int remember = 0;
 
-    for (int i = 0; i < size; i++)
+    for (int i = 0; i < **size; i++)
     {
-        for (int j = 0; j < size; j++)
+        for (int j = 0; j < **size; j++)
         {
-            s += array[i][j];
+            s += *array[i][j];
             if (s > sMAX)
             {
                 sMAX = s;
@@ -90,22 +96,22 @@ int lineMAX(int array[10][10], int size)
 }
 
 //Xuat ra dong co tong nho nhat:
-int lineMIN(int array[10][10], int size)
+int lineMIN(int*** array, int** size)
 {
     int sMIN = 0;
     int s = 0;
     int remember = 0;
 
-    for (int j = 0; j < size; j++)
+    for (int j = 0; j < **size; j++)
     {
-        sMIN += array[0][j];
+        sMIN += *array[0][j];
     }
 
-    for (int i = 1; i < size; i++)
+    for (int i = 1; i < **size; i++)
     {
-        for (int j = 0; j < size; j++)
+        for (int j = 0; j < **size; j++)
         {
-            s += array[i][j];
+            s += *array[i][j];
             if (s < sMIN)
             {
                 sMIN = s;
@@ -119,31 +125,31 @@ int lineMIN(int array[10][10], int size)
 }
 
 //Tinh tong duong cheo chinh:
-int crossmain(int array[10][10], int size)
+int crossmain(int*** array, int** size)
 {
 
     int s1 = 0;
 
-    for (int i = 0; i < size; i++) {
-        for (int j = 0; j < size; j++) {
+    for (int i = 0; i < **size; i++) {
+        for (int j = 0; j < **size; j++) {
             if (i == j)
-                s1 += array[i][i];
+                s1 += *array[i][i];
         }
     }
     return s1;
 }
 
 //Tinh tong duong cheo phu:
-int seccross(int array[10][10], int size)
+int seccross(int*** array, int** size)
 {
     int s2 = 0;
 
-    for (int i = 0; i < size; i++)
+    for (int i = 0; i < **size; i++)
     {
-        for (int j = 0; j < size; j++)
+        for (int j = 0; j < **size; j++)
         {
-            if ((i + j) == (size - 1))
-                s2 += array[i][j];
+            if ((i + j) == (**size - 1))
+                s2 += *array[i][j];
         }
     }
     return s2;
@@ -151,31 +157,34 @@ int seccross(int array[10][10], int size)
 
 int main() {
 
-    int a[10][10] = {};
-    int size;
-    nhapMang(a, &size);
+    int** a = NULL;
+    int size = 0;
 
-    for (int i = 0; i <= size; i++)
+    nhapMang(&a, &size);
+
+    for (int i = 0; i < size; i++)
     {
-        for (int j = 0; j <= size; j++)
+        for (int j = 0; j < size; j++)
         {
             printf("%d\t", a[i][j]);
         }
         printf("\n");
     }
 
-    printf("Tong duong cheo chinh = %d\n", crossmain(a, size));
+    int* size1 = &size;
 
-    printf("Tong duong cheo phu = %d\n", seccross(a, size));
+    printf("Tong duong cheo chinh = %d\n", crossmain(&a, &size1));
 
-    printf("Dong co tong lon nhat la dong thu %d.\n",lineMAX(a, size));
-    printf("Dong co tong nho nhat la dong thu %d.\n",lineMIN(a, size));
+    printf("Tong duong cheo phu = %d\n", seccross(&a, &size1));
+
+    printf("Dong co tong lon nhat la dong thu %d.\n",lineMAX(&a, &size1));
+    printf("Dong co tong nho nhat la dong thu %d.\n",lineMIN(&a, &size1));
 
     //So sanh gia tri s1 voi duong cheo (final step) de xet ma phuong
-    maPhuong(a, size);
-    int k = maPhuong(a, size);
-    int cross1 = crossmain(a, size);
-    int cross2 = seccross(a, size);
+    maPhuong(&a, &size1);
+    int k = maPhuong(&a, &size1);
+    int cross1 = crossmain(&a, &size1);
+    int cross2 = seccross(&a, &size1);
 
     if (k == 0)
     {
