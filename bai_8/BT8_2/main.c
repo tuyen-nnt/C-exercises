@@ -41,6 +41,7 @@ int main()
         k = (int) strtol(buffer, NULL, 10);
     }
 
+    //Nhap 2 ma tran:
     printf("\n");
     printf("Ma tran thu nhat: \n");
     nhapMaTran(a1, m, n);
@@ -61,9 +62,28 @@ int main()
             }
             printf("%d  ", c[i][j]);
         }
-        printf("\n");
+        printf("\n\n");
     }
 
+    //Trich ra nhung so xuat hien o ca 2 ma tran 1 va 2:
+
+    printf("Nhung so xuat hien o ca 2 ma tran la : \n");
+    for (int i = 0; i < m; i++)
+    {
+        for (int j = 0; j < n; j++)
+        {
+            for (int x = 0; x < n; x++)
+            {
+                for (int y = 0; y < k; y++)
+                {
+                    if (a1[i][j] == a2[x][y])
+                    {
+                        printf("%d  ", a1[i][j]);
+                    }
+                }
+            }
+        }
+    }
 
     return 0;
 }
