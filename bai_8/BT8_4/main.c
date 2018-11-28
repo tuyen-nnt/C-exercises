@@ -14,11 +14,11 @@ void nhapdt(donthuc* dt)
 
     printf("Nhap vao he so don thuc = ");
     scanf("%s", buffer);
-    (*dt).heso = (float*) strtof(buffer, NULL, 10);
+    (*dt).heso = strtof(buffer, NULL);
 
     printf("Nhap vao so bac cua don thuc = ");
     scanf("%s", buffer);
-    (*dt).somu = (float*) strtof(buffer, NULL, 10);
+    (*dt).somu = (int) strtof(buffer, NULL);
 }
 
 donthuc tichdt(donthuc a, donthuc b)
@@ -51,7 +51,7 @@ donthuc DaoHamCap1(donthuc a)
 
 void xuatdt(donthuc a)
 {
-    printf("%6.3fx%d", a.heso, a.somu);
+    printf("%6.1fx^%d", a.heso, a.somu);
 }
 
 int main()
