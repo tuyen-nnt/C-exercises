@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#define _USE_MATH_DEFINES
 #include <math.h>
 
 #define TRUE 1
@@ -25,10 +26,12 @@ int main()
 {
     char buffer1[2], buffer2[2];
     int num1, num2;
-    FILE *file;
-    file = fopen("myfile.txt","w");
+    FILE *input;
+    FILE *output;
+    input = fopen("input.txt","w");
+    output = fopen("output.txt", "w");
 
-    if(file == NULL)
+    if(input == NULL)
     {
         printf("Error!");
         exit(1);
@@ -38,39 +41,41 @@ int main()
     scanf("%s",buffer1);
     num1 = (int) strtol(buffer1, NULL, 10);
 
-    fprintf(file,"%d ", num1);
+    printf("Writing to input.txt: %d\n", num1);
+    fprintf(input,"%d ", num1);
 
     printf("Enter num: ");
     scanf("%s",buffer2);
     num2 = (int) strtol(buffer2, NULL, 10);
 
-    fprintf(file,"%d", num2);
-    fclose(file);
+    printf("Writing to input.txt: %d\n", num2);
+    fprintf(input,"%d", num2);
+    fclose(input);
 
 
-    if ((file = fopen("myfile.txt","r")) == NULL)
+    if ((input = fopen("input.txt","r")) == NULL)
     {
-        printf("Error! openingm file");
+        printf("Error! opening file");
 
 // Program exits if the file pointer returns NULL.
         exit(1);
     }
 
 
-    fscanf(file,"%d", &num1);
-    fscanf(file,"%d", &num2);
+    fscanf(input,"%d", &num1);
+    fscanf(input,"%d", &num2);
 
-    printf("Value of n = %d\n", num1);
-    printf("Value of m = %d", num2);
-    fclose(file);
+    fprintf(output,"Value of n = %d\n", num1);
+    fprintf(output,"Value of m = %d", num2);
+    fclose(input);
 
     int number;
 
-    fprintf(file," Danh sach so nguyen to tu m den n : \n");
+    fprintf(output," Danh sach so nguyen to tu m den n : \n");
     for (number = num1; number < num2; number++)
     {
         if (CheckPrimeNumber(number) == TRUE)
-            fprintf(file, "%d  ", number);
+            fprintf(output, "%d  ", number);
     }
 
     return 0;
