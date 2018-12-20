@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/thanhtuyen/C-exercises/bai_7/ControStructGuide/main.c
+stdio.h
+-
+mylib.h
+/home/thanhtuyen/C-exercises/bai_7/ControStructGuide/mylib.h
+
+/home/thanhtuyen/C-exercises/bai_7/ControStructGuide/mylib.c
+stdio.h
+-
+mylib.h
+/home/thanhtuyen/C-exercises/bai_7/ControStructGuide/mylib.h
+
+/home/thanhtuyen/C-exercises/bai_7/ControStructGuide/mylib.h
+

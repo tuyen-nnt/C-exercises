@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/BT6_5.dir/main.c.o CMakeFiles/BT6_5.dir/main2.c.o CMakeFiles/BT6_5.dir/main3.c.o CMakeFiles/BT6_5.dir/main4.c.o CMakeFiles/BT6_5.dir/mylib2.c.o CMakeFiles/BT6_5.dir/mylib3.c.o CMakeFiles/BT6_5.dir/mylib4.c.o CMakeFiles/BT6_5.dir/mylib.c.o  -o BT6_5 

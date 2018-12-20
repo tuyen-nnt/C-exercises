@@ -1,0 +1,3 @@
+/home/thanhtuyen/CLionProjects/BT3.2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/thanhtuyen/CLionProjects/BT3.2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/thanhtuyen/CLionProjects/BT3.2/cmake-build-debug/CMakeFiles/BT3_2.dir
